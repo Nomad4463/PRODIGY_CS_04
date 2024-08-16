@@ -27,6 +27,21 @@ This project provides a simple keylogger implemented in Python using the `pynput
 
 3. **The keylogger will run in the background and log keystrokes to `keylog.txt`. To stop the keylogger, press the `Esc` key.**
 
+4. ## Example Output
+
+After running the keylogger, you might find a `keylog.txt` file that looks like this:
+
+```
+Hello [Shift] [a] [Shift] [b] [Enter] How are you? [Space] [World] [Enter] [Esc]
+```
+
+In this example:
+- `Hello` and `How are you?` are regular text input.
+- `[Shift] [a]` indicates that the `Shift` key was held down while pressing `a`.
+- `[Enter]` denotes when the Enter key was pressed.
+- `[Space]` is the spacebar key.
+- `[World]` and `[Esc]` are additional key inputs, with `[Esc]` representing the `Esc` key press that stops the logging.## Example Output
+
 ## Important Notes
 
 - This script is intended for educational purposes only.
